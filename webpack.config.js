@@ -22,7 +22,7 @@ module.exports = {
   },
   output: {
     filename: 'bundle.js',
-    libraryTarget: 'commonjs2',
+    // libraryTarget: 'commonjs2',
     path: path.join(__dirname, '.tmp'),
     publicPath: '/static/',
   },

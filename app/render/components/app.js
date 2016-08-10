@@ -1,5 +1,7 @@
 const React = require('react');
 
+const Navigation = require('./navigation');
+
 class App extends React.Component {
   render() {
     const { children } = this.props;
@@ -7,7 +9,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Electron Hot Reload!</h1>
-        <p>Testing React hot reloading in Electron.</p>
+        <Navigation />
         {children}
       </div>
     );
