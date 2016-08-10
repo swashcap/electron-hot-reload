@@ -1,0 +1,17 @@
+{
+  "name": "electron-hot-reload",
+  "version": "1.0.0",
+  "description": "Testing React hot reloading in Electron.",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "react",
+    "reloading",
+    "hot"
+  ],
+  "author": "Cory Reed <swashcap@gmail.com>",
+  "license": "MIT"
+}
