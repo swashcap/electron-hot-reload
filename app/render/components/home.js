@@ -1,6 +1,12 @@
 const React = require('react');
 
-module.exports = function Home() {
-  return <p>Testing React <em>hot reloading</em> in Electron.</p>
+class Home extends React.Component {
+  render() {
+    const style = {
+      color: '#f3f',
+    };
+    return <p>Testing React <em style={style}>hot reloading</em> in Electron.</p>
+  }
 };
 
+module.exports = Home;
