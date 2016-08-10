@@ -13,5 +13,14 @@
     "hot"
   ],
   "author": "Cory Reed <swashcap@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swashcap/electron-hot-reload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swashcap/electron-hot-reload/issues"
+  },
+  "homepage": "https://github.com/swashcap/electron-hot-reload#readme"
 }
